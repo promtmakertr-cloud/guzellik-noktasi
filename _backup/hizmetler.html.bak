@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeri — Güzellik Noktası</title>
-  <meta name="description" content="Güzellik Noktası - Galeri sayfası. Türkiye'nin en iyi galeri deneyimi için bizi tercih edin.">
-  <style>:root{--p:#1E40AF;--s:#3B82F6;--bg:#FAFAFA;--tx:#0000FF;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
+  <title>Hizmetler — Güzellik Noktası</title>
+  <meta name="description" content="Güzellik Noktası - Hizmetler sayfası. Türkiye'nin en iyi hizmetler deneyimi için bizi tercih edin.">
+  <style>:root{--p:#0000FF;--s:#0000FF;--bg:#FAFAFA;--tx:#0000FF;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
 .section-subtitle{color:#0000FF99;}
 .card-price{font-size:1.25rem;font-weight:700;color:#0000FF;margin-top:12px}
 .card-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.78rem;font-weight:700;background:#0000FF;color:#fff;margin-bottom:10px}
@@ -28,69 +28,122 @@
     </button>
     <div class="nav-menu" id="navMenu">
       <a href="index.html" class="nav-link">Ana Sayfa</a>
-      <a href="hizmetler.html" class="nav-link">Hizmetler</a>
-      <a href="galeri.html" class="nav-link active">Galeri</a>
+      <a href="hizmetler.html" class="nav-link active">Hizmetler</a>
+      <a href="galeri.html" class="nav-link">Galeri</a>
       <a href="randevu.html" class="nav-link">Randevu</a>
     </div>
   </div>
 </nav>
 <main>
-  <div class="hero-mini">
-    <div class="container text-center">
-      <h1>Güzellik Noktası Galeri</h1>
-      <p>Kaliteli hizmetlerimiz ve özenle tasarlanmış mekanımızla sizleri tanıştırmak için galeri sayfamıza hoş geldiniz.</p>
-    </div>
-  </div>
-
-  <div class="section-light text-center">
+```html
+<main>
+  <div class="hero hero-mini">
+    <div class="hero-bg" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
+    <div class="hero-overlay"></div>
     <div class="container">
-      <div class="btn-group">
-        <a href="#" class="btn btn-outline">Tümü</a>
-        <a href="#" class="btn btn-outline">Saç</a>
-        <a href="#" class="btn btn-outline">Manikür</a>
-        <a href="#" class="btn btn-outline">Cilt</a>
-        <a href="#" class="btn btn-outline">Ortam</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="container">
-      <div class="gallery-grid">
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/29189919/pexels-photo-29189919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3992875/pexels-photo-3992875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/29096366/pexels-photo-29096366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993470/pexels-photo-3993470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993462/pexels-photo-3993462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3065170/pexels-photo-3065170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/35225425/pexels-photo-35225425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993458/pexels-photo-3993458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/15659458/pexels-photo-15659458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/9971240/pexels-photo-9971240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/7755499/pexels-photo-7755499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/34930126/pexels-photo-34930126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/8834111/pexels-photo-8834111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3992861/pexels-photo-3992861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
+      <div class="hero-content">
+        <h1>Güzellik Noktası'na Hoş Geldiniz</h1>
+        <p>En kaliteli saç tasarımı, manikür, pedikür ve cilt bakımı hizmetleri ile sizlere hizmet vermekteyiz.</p>
+        <div class="btn-group">
+          <a href="#" class="btn btn-white btn-lg">Randevu Al</a>
+          <a href="iletisim.html" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.7)">Bize Ulaşın</a>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="section section-light">
     <div class="container">
-      <div class="grid-2">
-        <div>
-          <h2>Önce & Sonra</h2>
-          <p>Müşterilerimiz için sunduğumuz hizmetin öncesi ve sonrası karşılaştırması.</p>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Saç Tasarımı</h3>
+            <div class="accordion-item">
+              <div class="accordion-header">Hizmetler</div>
+              <div class="accordion-body">
+                <ul>
+                  <li>Kesim ve Şekillendirme - 60 dk - 200 TL</li>
+                  <li>Renk Değişimi - 90 dk - 300 TL</li>
+                  <li>Balyaj - 120 dk - 400 TL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="grid-2">
-          <img src="https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Önce">
-          <img src="https://images.pexels.com/photos/3993290/pexels-photo-3993290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Sonra">
+        
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Manikür & Pedikür</h3>
+            <div class="accordion-item">
+              <div class="accordion-header">Hizmetler</div>
+              <div class="accordion-body">
+                <ul>
+                  <li>Klasik Manikür - 30 dk - 100 TL</li>
+                  <li>Klasik Pedikür - 45 dk - 150 TL</li>
+                  <li>Jel Tırnak - 60 dk - 200 TL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Cilt Bakımı</h3>
+            <div class="accordion-item">
+              <div class="accordion-header">Hizmetler</div>
+              <div class="accordion-body">
+                <ul>
+                  <li>Derinlemesine Temizlik - 60 dk - 250 TL</li>
+                  <li>Nemsizlik Karşıtı Bakım - 45 dk - 200 TL</li>
+                  <li>Anti-Aging Bakım - 90 dk - 350 TL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="section section-dark">
+    <div class="container">
+      <h2 class="section-title text-center">Paketlerimiz</h2>
+      <div class="grid-3">
+        <div class="pricing-card">
+          <div class="pricing-badge">Temel Paket</div>
+          <div class="pricing-price">500 TL</div>
+          <ul class="pricing-features">
+            <li>Saç Kesim & Şekillendirme</li>
+            <li>Klasik Manikür</li>
+            <li>Cilt Derin Temizlik</li>
+          </ul>
+        </div>
+        
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Standart Paket</div>
+          <div class="pricing-price">750 TL</div>
+          <ul class="pricing-features">
+            <li>Saç Kesim & Balyaj</li>
+            <li>Jel Manikür & Pedikür</li>
+            <li>Anti-Aging Cilt Bakımı</li>
+          </ul>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-badge">Premium Paket</div>
+          <div class="pricing-price">1000 TL</div>
+          <ul class="pricing-features">
+            <li>Komple Renk Değişimi</li>
+            <li>Jel Manikür & Pedikür</li>
+            <li>Cilt Nemlendirme & Anti-Aging</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+```
 </main>
 <footer class="footer">
   <div class="container">

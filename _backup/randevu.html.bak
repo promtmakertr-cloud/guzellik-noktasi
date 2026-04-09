@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeri — Güzellik Noktası</title>
-  <meta name="description" content="Güzellik Noktası - Galeri sayfası. Türkiye'nin en iyi galeri deneyimi için bizi tercih edin.">
-  <style>:root{--p:#1E40AF;--s:#3B82F6;--bg:#FAFAFA;--tx:#0000FF;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
+  <title>Randevu — Güzellik Noktası</title>
+  <meta name="description" content="Güzellik Noktası - Randevu sayfası. Türkiye'nin en iyi randevu deneyimi için bizi tercih edin.">
+  <style>:root{--p:#0000FF;--s:#0000FF;--bg:#FAFAFA;--tx:#0000FF;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
 .section-subtitle{color:#0000FF99;}
 .card-price{font-size:1.25rem;font-weight:700;color:#0000FF;margin-top:12px}
 .card-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.78rem;font-weight:700;background:#0000FF;color:#fff;margin-bottom:10px}
@@ -29,68 +29,115 @@
     <div class="nav-menu" id="navMenu">
       <a href="index.html" class="nav-link">Ana Sayfa</a>
       <a href="hizmetler.html" class="nav-link">Hizmetler</a>
-      <a href="galeri.html" class="nav-link active">Galeri</a>
-      <a href="randevu.html" class="nav-link">Randevu</a>
+      <a href="galeri.html" class="nav-link">Galeri</a>
+      <a href="randevu.html" class="nav-link active">Randevu</a>
     </div>
   </div>
 </nav>
 <main>
-  <div class="hero-mini">
-    <div class="container text-center">
-      <h1>Güzellik Noktası Galeri</h1>
-      <p>Kaliteli hizmetlerimiz ve özenle tasarlanmış mekanımızla sizleri tanıştırmak için galeri sayfamıza hoş geldiniz.</p>
-    </div>
-  </div>
-
-  <div class="section-light text-center">
+```html
+<main>
+  <div class="hero hero-mini">
+    <div class="hero-bg" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
+    <div class="hero-overlay"></div>
     <div class="container">
-      <div class="btn-group">
-        <a href="#" class="btn btn-outline">Tümü</a>
-        <a href="#" class="btn btn-outline">Saç</a>
-        <a href="#" class="btn btn-outline">Manikür</a>
-        <a href="#" class="btn btn-outline">Cilt</a>
-        <a href="#" class="btn btn-outline">Ortam</a>
+      <div class="hero-content">
+        <h1>Randevu Alın</h1>
+        <p>Güzellik Noktası'nda profesyonel dokunuşlarla kendinizi yenileyin. Şimdi kolaylıkla randevu alın ve deneyimi yaşayın.</p>
       </div>
     </div>
   </div>
 
   <div class="section">
-    <div class="container">
-      <div class="gallery-grid">
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/29189919/pexels-photo-29189919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3992875/pexels-photo-3992875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/29096366/pexels-photo-29096366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993470/pexels-photo-3993470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993462/pexels-photo-3993462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3065170/pexels-photo-3065170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/35225425/pexels-photo-35225425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993458/pexels-photo-3993458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/15659458/pexels-photo-15659458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/9971240/pexels-photo-9971240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/7755499/pexels-photo-7755499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/34930126/pexels-photo-34930126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/8834111/pexels-photo-8834111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3992861/pexels-photo-3992861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
+    <div class="container grid-2">
+      <div>
+        <form>
+          <div class="form-group">
+            <label for="name" class="form-label">Ad-Soyad</label>
+            <input type="text" id="name" class="form-control" placeholder="Adınızı ve soyadınızı yazın" required>
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Telefon</label>
+            <input type="tel" id="phone" class="form-control" placeholder="Telefon numaranızı yazın" required>
+          </div>
+          <div class="form-group">
+            <label for="service" class="form-label">Hizmet Seçimi</label>
+            <select id="service" class="form-control" required>
+              <option value="sac">Saç Kesimi</option>
+              <option value="manikur">Manikür</option>
+              <option value="maske">Yüz Maskesi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="staff" class="form-label">Çalışan Seçimi</label>
+            <select id="staff" class="form-control" required>
+              <option value="seyma">Şeyma</option>
+              <option value="elif">Elif</option>
+              <option value="ahmet">Ahmet</option>
+            </select>
+          </div>
+          <div class="form-group form-row">
+            <div>
+              <label for="date" class="form-label">Tarih</label>
+              <input type="date" id="date" class="form-control" required>
+            </div>
+            <div>
+              <label for="time" class="form-label">Saat</label>
+              <select id="time" class="form-control" required>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <!-- diğer saat seçenekleri -->
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="note" class="form-label">Not</label>
+            <textarea id="note" class="form-control" rows="4" placeholder="Eklemek istediğiniz bir notunuz var mı?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Randevu Al</button>
+        </form>
       </div>
-    </div>
-  </div>
 
-  <div class="section section-light">
-    <div class="container">
-      <div class="grid-2">
-        <div>
-          <h2>Önce & Sonra</h2>
-          <p>Müşterilerimiz için sunduğumuz hizmetin öncesi ve sonrası karşılaştırması.</p>
+      <div>
+        <div class="info-card">
+          <h3>Çalışma Saatlerimiz</h3>
+          <p>Hafta içi ve hafta sonu: 09:00 - 20:00</p>
         </div>
-        <div class="grid-2">
-          <img src="https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Önce">
-          <img src="https://images.pexels.com/photos/3993290/pexels-photo-3993290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Sonra">
+        <div class="info-card">
+          <h3>Adresimiz</h3>
+          <p>123 Güzellik Sokak, İstanbul</p>
+        </div>
+        <a href="https://wa.me/900000000000" class="btn btn-secondary btn-lg">WhatsApp ile İletişime Geç</a>
+
+        <div class="team-card">
+          <img src="https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Şeyma" class="team-img">
+          <div class="team-body">
+            <h4 class="team-name">Şeyma</h4>
+            <p class="team-role">Saç Uzmanı</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://images.pexels.com/photos/3993326/pexels-photo-3993326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Elif" class="team-img">
+          <div class="team-body">
+            <h4 class="team-name">Elif</h4>
+            <p class="team-role">Cilt Bakımı Uzmanı</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://images.pexels.com/photos/3993310/pexels-photo-3993310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Ahmet" class="team-img">
+          <div class="team-body">
+            <h4 class="team-name">Ahmet</h4>
+            <p class="team-role">Masaj Terapisti</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</main>
+```
 </main>
 <footer class="footer">
   <div class="container">
