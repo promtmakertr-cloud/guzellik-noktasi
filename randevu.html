@@ -6,7 +6,7 @@
   <title>Randevu — Güzellik Noktası</title>
   <meta name="description" content="Güzellik Noktası - Randevu sayfası. Türkiye'nin en iyi randevu deneyimi için bizi tercih edin.">
   <style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap');
-:root{--p:#1E40AF;--s:#3B82F6;--bg:#FAFAFA;--tx:#1A1A1A;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
+:root{--p:#1A1A2E;--s:#C9A96E;--bg:#FAFAFA;--tx:#1A1A1A;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 img{max-width:100%;height:auto;display:block;object-fit:cover}a{text-decoration:none;color:inherit}ul{list-style:none}html{scroll-behavior:smooth}
 body{font-family:var(--fb);color:var(--tx);background:var(--bg);line-height:1.7;font-size:16px}
@@ -212,15 +212,13 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
   </div>
 </nav>
 <main>
-```html
-<main>
   <div class="hero hero-mini">
     <div class="hero-bg" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1>Randevu Alın</h1>
-        <p>Güzellik Noktası'nda profesyonel dokunuşlarla kendinizi yenileyin. Şimdi kolaylıkla randevu alın ve deneyimi yaşayın.</p>
+        <h1>Güzellik Noktası - Randevu Al</h1>
+        <p>Size en uygun tarih ve saati seçerek randevunuzu oluşturun. Güzellik Noktası ekibi size kusursuz bir deneyim sunmak için hazır.</p>
       </div>
     </div>
   </div>
@@ -230,91 +228,95 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
       <div>
         <form>
           <div class="form-group">
-            <label for="name" class="form-label">Ad-Soyad</label>
-            <input type="text" id="name" class="form-control" placeholder="Adınızı ve soyadınızı yazın" required>
+            <label class="form-label" for="name">Ad-Soyad</label>
+            <input type="text" id="name" class="form-control" placeholder="Adınızı ve Soyadınızı Girin" required>
           </div>
           <div class="form-group">
-            <label for="phone" class="form-label">Telefon</label>
-            <input type="tel" id="phone" class="form-control" placeholder="Telefon numaranızı yazın" required>
+            <label class="form-label" for="phone">Telefon</label>
+            <input type="tel" id="phone" class="form-control" placeholder="Telefon Numaranızı Girin" required>
           </div>
           <div class="form-group">
-            <label for="service" class="form-label">Hizmet Seçimi</label>
+            <label class="form-label" for="service">Hizmet Seçimi</label>
             <select id="service" class="form-control" required>
-              <option value="sac">Saç Kesimi</option>
+              <option value="sac-kesimi">Saç Kesimi</option>
               <option value="manikur">Manikür</option>
-              <option value="maske">Yüz Maskesi</option>
+              <option value="makyaj">Makyaj</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="staff" class="form-label">Çalışan Seçimi</label>
-            <select id="staff" class="form-control" required>
-              <option value="seyma">Şeyma</option>
-              <option value="elif">Elif</option>
-              <option value="ahmet">Ahmet</option>
+            <label class="form-label" for="employee">Çalışan Seçimi</label>
+            <select id="employee" class="form-control" required>
+              <option value="ayse">Ayşe Yılmaz</option>
+              <option value="fatma">Fatma Kara</option>
+              <option value="mehmet">Mehmet Yıldız</option>
             </select>
           </div>
-          <div class="form-group form-row">
-            <div>
-              <label for="date" class="form-label">Tarih</label>
-              <input type="date" id="date" class="form-control" required>
-            </div>
-            <div>
-              <label for="time" class="form-label">Saat</label>
-              <select id="time" class="form-control" required>
-                <option value="09:00">09:00</option>
-                <option value="10:00">10:00</option>
-                <option value="11:00">11:00</option>
-                <!-- diğer saat seçenekleri -->
-                <option value="19:00">19:00</option>
-                <option value="20:00">20:00</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <label class="form-label" for="date">Tarih</label>
+            <input type="date" id="date" class="form-control" required>
           </div>
           <div class="form-group">
-            <label for="note" class="form-label">Not</label>
-            <textarea id="note" class="form-control" rows="4" placeholder="Eklemek istediğiniz bir notunuz var mı?"></textarea>
+            <label class="form-label" for="time">Saat</label>
+            <select id="time" class="form-control" required>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+              <option value="19:00">19:00</option>
+              <option value="20:00">20:00</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="note">Not</label>
+            <textarea id="note" class="form-control" placeholder="Özel bir isteğiniz var mı?"></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-lg">Randevu Al</button>
         </form>
       </div>
-
       <div>
         <div class="info-card">
-          <h3>Çalışma Saatlerimiz</h3>
-          <p>Hafta içi ve hafta sonu: 09:00 - 20:00</p>
+          <div class="info-label">Çalışma Saatleri</div>
+          <div class="info-value">Pazartesi - Cumartesi: 09:00 - 20:00</div>
+          <div class="info-value">Pazar: Kapalı</div>
         </div>
         <div class="info-card">
-          <h3>Adresimiz</h3>
-          <p>123 Güzellik Sokak, İstanbul</p>
+          <div class="info-label">Adres</div>
+          <div class="info-value">İstanbul, Beyoğlu, İskele Cad. No:123</div>
         </div>
-        <a href="https://wa.me/900000000000" class="btn btn-secondary btn-lg">WhatsApp ile İletişime Geç</a>
-
+        <a href="https://wa.me/901234567890" class="btn btn-outline">Whatsapp ile İletişim</a>
         <div class="team-card">
-          <img src="https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Şeyma" class="team-img">
+          <img src="https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Ayşe Yılmaz" class="team-img">
           <div class="team-body">
-            <h4 class="team-name">Şeyma</h4>
-            <p class="team-role">Saç Uzmanı</p>
+            <h3 class="team-name">Ayşe Yılmaz</h3>
+            <span class="team-role">Kuaför</span>
+            <p class="team-bio">15 yıllık deneyimi ile uzman kesim ve stilistlik hizmetleri sunmaktadır.</p>
           </div>
         </div>
         <div class="team-card">
-          <img src="https://images.pexels.com/photos/3993326/pexels-photo-3993326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Elif" class="team-img">
+          <img src="https://images.pexels.com/photos/3993326/pexels-photo-3993326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Fatma Kara" class="team-img">
           <div class="team-body">
-            <h4 class="team-name">Elif</h4>
-            <p class="team-role">Cilt Bakımı Uzmanı</p>
+            <h3 class="team-name">Fatma Kara</h3>
+            <span class="team-role">Makyaj Uzmanı</span>
+            <p class="team-bio">Profesyonel makyajda 10 yıllık tecrübe ile zarif dokunuşlar sunar.</p>
           </div>
         </div>
         <div class="team-card">
-          <img src="https://images.pexels.com/photos/3993310/pexels-photo-3993310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Ahmet" class="team-img">
+          <img src="https://images.pexels.com/photos/3993310/pexels-photo-3993310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mehmet Yıldız" class="team-img">
           <div class="team-body">
-            <h4 class="team-name">Ahmet</h4>
-            <p class="team-role">Masaj Terapisti</p>
+            <h3 class="team-name">Mehmet Yıldız</h3>
+            <span class="team-role">Manikür Uzmanı</span>
+            <p class="team-bio">Mükemmel el bakımı için güvenilir isim. 8 yıllık tecrübeye sahip.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</main>
-```
 </main>
 <footer class="footer">
   <div class="container">
