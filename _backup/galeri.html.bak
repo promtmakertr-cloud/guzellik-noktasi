@@ -8,7 +8,7 @@
   <style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap');
 :root{--p:#1A1A2E;--s:#C9A96E;--bg:#FAFAFA;--tx:#1A1A1A;--card:#FFFFFF;--fh:'Cormorant Garamond',serif;--fb:'Montserrat',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-img{max-width:100%;display:block;object-fit:cover}a{text-decoration:none;color:inherit}ul{list-style:none}html{scroll-behavior:smooth}
+img{max-width:100%;height:auto;display:block;object-fit:cover}a{text-decoration:none;color:inherit}ul{list-style:none}html{scroll-behavior:smooth}
 body{font-family:var(--fb);color:var(--tx);background:var(--bg);line-height:1.7;font-size:16px}
 h1,h2,h3,h4{font-family:var(--fh);line-height:1.3}
 h1{font-size:clamp(2rem,5vw,3.5rem)}h2{font-size:clamp(1.6rem,3vw,2.4rem)}h3{font-size:clamp(1.1rem,2vw,1.5rem)}
@@ -212,15 +212,21 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
   </div>
 </nav>
 <main>
-  <div class="hero-mini">
-    <div class="container text-center">
-      <h1>Güzellik Noktası Galeri</h1>
-      <p>Kaliteli hizmetlerimiz ve özenle tasarlanmış mekanımızla sizleri tanıştırmak için galeri sayfamıza hoş geldiniz.</p>
+```html
+<main>
+  <div class="hero hero-mini">
+    <div class="hero-bg" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Güzellik Noktası - Galeri</h1>
+        <p>Sanatımız ve ustalığımızla yarattığımız büyüleyici çalışmaları keşfedin. En iyi güzellik deneyimlerini sunuyoruz.</p>
+      </div>
     </div>
   </div>
 
-  <div class="section-light text-center">
-    <div class="container">
+  <div class="section">
+    <div class="container text-center">
       <div class="btn-group">
         <a href="#" class="btn btn-outline">Tümü</a>
         <a href="#" class="btn btn-outline">Saç</a>
@@ -232,42 +238,38 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
   </div>
 
   <div class="section">
-    <div class="container">
-      <div class="gallery-grid">
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/29189919/pexels-photo-29189919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3992875/pexels-photo-3992875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/29096366/pexels-photo-29096366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993470/pexels-photo-3993470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993462/pexels-photo-3993462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3065170/pexels-photo-3065170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/35225425/pexels-photo-35225425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3993458/pexels-photo-3993458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/15659458/pexels-photo-15659458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/9971240/pexels-photo-9971240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/7755499/pexels-photo-7755499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/34930126/pexels-photo-34930126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/8834111/pexels-photo-8834111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/3992861/pexels-photo-3992861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-        <div class="gallery-item" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-      </div>
+    <div class="container gallery-grid grid-4">
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/29189919/pexels-photo-29189919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Saç Tasarımı"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Manikür Sanatı"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3992875/pexels-photo-3992875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Cilt Bakımı"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/29096366/pexels-photo-29096366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Salon Ortamı"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993470/pexels-photo-3993470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Özel Saç Renkleri"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993462/pexels-photo-3993462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Profesyonel Manikür"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3065170/pexels-photo-3065170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Cilt Bakımı Detayları"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/35225425/pexels-photo-35225425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Rahatlatıcı Salon Ortamı"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993458/pexels-photo-3993458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Saç Kesimi"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/29189919/pexels-photo-29189919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Özgün Saç Modelleri"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Renkli Manikür"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3992875/pexels-photo-3992875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Spa Cilt Bakımı"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/29096366/pexels-photo-29096366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Salon Dekorasyonu"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993470/pexels-photo-3993470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Yaratıcı Saç Renkleri"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3993462/pexels-photo-3993462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Özenli Manikür Hizmeti"></div>
+      <div class="gallery-item"><img src="https://images.pexels.com/photos/3065170/pexels-photo-3065170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Eşsiz Cilt Bakımları"></div>
     </div>
   </div>
 
-  <div class="section section-light">
-    <div class="container">
-      <div class="grid-2">
-        <div>
-          <h2>Önce & Sonra</h2>
-          <p>Müşterilerimiz için sunduğumuz hizmetin öncesi ve sonrası karşılaştırması.</p>
-        </div>
-        <div class="grid-2">
-          <img src="https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Önce">
-          <img src="https://images.pexels.com/photos/3993290/pexels-photo-3993290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Sonra">
-        </div>
+  <div class="section">
+    <div class="container grid-2">
+      <div>
+        <img style="width:100%" src="https://images.pexels.com/photos/3993458/pexels-photo-3993458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Önce">
+      </div>
+      <div>
+        <img style="width:100%" src="https://images.pexels.com/photos/3993470/pexels-photo-3993470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Sonra">
       </div>
     </div>
   </div>
+</main>
+```
 </main>
 <footer class="footer">
   <div class="container">

@@ -224,8 +224,6 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
   </div>
 </nav>
 <main>
-```html
-<main>
   <div class="hero">
     <div class="hero-bg" style="background-image:url('https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
     <div class="hero-overlay"></div>
@@ -307,7 +305,7 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
       </div>
     </div>
   </div>
-
+  
   <div class="section">
     <div class="container">
       <h2 class="section-title">Galerimiz</h2>
@@ -341,8 +339,17 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
       <a href="#" class="btn btn-primary btn-lg">Instagram'a Git</a>
     </div>
   </div>
-</main>
-```
+
+  <!-- Google Maps -->
+  <div class="section">
+    <div class="container">
+      <h2 class="section-title">Bizi Burada Bulabilirsiniz</h2>
+      <div class="divider"></div>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306722.53245802163!2d28.5985908!3d41.0082376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba18f110af89%3A0x564acc9f1ea7f497!2sG%C3%BCzellik-Noktası!5e0!3m2!1str!2str!4v1607082871061!5m2!1str!2str" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
 </main>
 <footer class="footer">
   <div class="container">
@@ -382,10 +389,4 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
 (function(){
   var hbg=document.getElementById('hamburger'),menu=document.getElementById('navMenu');
   if(hbg)hbg.addEventListener('click',function(){this.classList.toggle('active');menu.classList.toggle('open');});
-  window.addEventListener('scroll',function(){var n=document.getElementById('navbar');if(n)n.style.boxShadow=window.scrollY>60?'0 4px 20px rgba(0,0,0,.16)':'0 2px 12px rgba(0,0,0,.07)';});
-  document.querySelectorAll('.nav-link').forEach(function(l){l.addEventListener('click',function(){if(menu)menu.classList.remove('open');if(hbg)hbg.classList.remove('active');});});
-  document.querySelectorAll('.accordion-header').forEach(function(h){h.addEventListener('click',function(){var item=this.closest('.accordion-item'),body=item.querySelector('.accordion-body');item.classList.toggle('active');body.classList.toggle('open');});});
-})();
-</script>
-</body>
-</html>
+  window.addEventListener('scroll',function(){var n=document.getElementById('navbar');if(n)n.style.boxShadow=window.scrollY>60?'0 4px 20px rgba(0,0,0,.16)':'0 2px 12px rgba(0,
